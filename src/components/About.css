@@ -1,0 +1,45 @@
+.about-page .history,
+.about-page .mission,
+.about-page .team {
+    padding: 50px 0;
+}
+
+.about-page h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.about-page p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-page .team .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about-page .team .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.about-page .team .card img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.about-page .team .card .card-title {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+.about-page .team .card .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}

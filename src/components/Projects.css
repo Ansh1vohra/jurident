@@ -1,0 +1,25 @@
+.projects-page .categories .btn {
+    margin: 0 5px;
+}
+
+.projects-page .card.project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projects-page .card.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.projects-page .card-img-top {
+    /* height: 220px; */
+    object-fit: cover;
+}
+
+.projects-page .badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    font-size: 0.9rem;
+}

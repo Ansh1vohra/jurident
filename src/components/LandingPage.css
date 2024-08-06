@@ -1,0 +1,75 @@
+/* src/components/LandingPage.css */
+
+.landing-page .hero {
+  position: relative;
+  background: url('https://img.freepik.com/free-photo/people-celebrating-world-population-day_23-2151493191.jpg?size=626&ext=jpg&ga=GA1.1.152313917.1696701547&semt=sph') no-repeat center center;
+  background-size: cover;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.landing-page .hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6); 
+}
+
+.landing-page .hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.landing-page .mission {
+  background-color: #f8f9fa;
+}
+
+.landing-page .values {
+  background-color: #ffffff;
+}
+
+.display-4{
+  font-size: 65px;
+  font-weight: 600;
+}
+
+.landing-page .achievements {
+  background-color: #a7e0ff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.landing-page .achievements .achievement-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.landing-page .achievements .achievement-item i {
+  margin-bottom: 10px;
+}
+
+.landing-page .achievements .achievement-item h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.landing-page .achievements .achievement-item p {
+  font-size: 1.2rem;
+}
+
+.carousel-item{
+  background-color: black;
+}
+.carousel-item img{
+  height:440px;
+  opacity: 0.6;
+}

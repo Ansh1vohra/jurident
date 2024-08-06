@@ -1,0 +1,10 @@
+/* src/components/ContactUs.css */
+
+.contact-page {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.contact-page .map-container {
+    margin-top: 20px;
+}

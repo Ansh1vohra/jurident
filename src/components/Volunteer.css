@@ -1,0 +1,16 @@
+.volunteer-page{
+    background-image: url(../Images/4858794.jpg);
+    background-size: cover;
+}
+
+.volunteer-page .volunteer-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.volunteer-page .btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}

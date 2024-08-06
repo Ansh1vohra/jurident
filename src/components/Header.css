@@ -1,0 +1,33 @@
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the header stays on top */
+    width: 100%;
+}
+
+.bgColor{
+    background-color:rgb(60, 91, 111);
+    color: white;
+    font-size: 1.1rem;;
+}
+
+.Link{
+    text-decoration: none;
+    color: white;
+}
+.Link:hover{
+    color: rgb(225, 225, 225);
+}
+
+.List{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+}
+
+@media (max-width:500px) {
+    .List{
+        display: none;
+    }
+}
