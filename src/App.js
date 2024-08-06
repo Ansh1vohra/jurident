@@ -11,6 +11,7 @@ import Projects from './components/Projects';
 import ProjectDetail from './components/ProjectDetails';
 import Volunteer from './components/Volunteer';
 import Contact from './components/ContactUs';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/:id" element={<ProjectDetail />} />
         <Route path="/volunteer" element={<Volunteer />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>
