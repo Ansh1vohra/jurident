@@ -26,6 +26,21 @@
     gap:1.5rem;
 }
 
+.offcanvas-body{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.offcanvas-link{
+    text-decoration: none;
+    color:black;
+}
+
+.offcanvas-link:hover{
+    color: rgb(67, 67, 67);
+}
+
 @media (max-width:500px) {
     .List{
         display: none;

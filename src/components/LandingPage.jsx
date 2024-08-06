@@ -1,4 +1,6 @@
 import './LandingPage.css';
+import img1 from '../Images/1.png';
+import img2 from '../Images/2.png';
 
 const LandingPage = () => {
   return (
@@ -11,21 +13,21 @@ const LandingPage = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://img.freepik.com/free-photo/people-celebrating-world-population-day_23-2151493191.jpg?size=626&ext=jpg&ga=GA1.1.152313917.1696701547&semt=sph" className="d-block w-100" alt="..." />
+            <img src={img2} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src="https://img.freepik.com/free-photo/international-day-education-illustration_23-2151101756.jpg?t=st=1722797481~exp=1722801081~hmac=ec41cafba9148df3a07e3034ef2f9a2fddfab793e547183d7f0add3df788bb73&w=1060" className="d-block w-100" alt="..." />
+            <img src={img1} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src="https://img.freepik.com/free-photo/people-celebrating-world-population-day_23-2151493191.jpg?size=626&ext=jpg&ga=GA1.1.152313917.1696701547&semt=sph" className="d-block w-100" alt="..." />
+            <img src={img2} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>

@@ -15,6 +15,10 @@
     margin-bottom: 1.5rem;
 }
 
+.meetTeam{
+    min-height: 30vh;
+}
+
 .about-page .team .card {
     display: flex;
     flex-direction: column;

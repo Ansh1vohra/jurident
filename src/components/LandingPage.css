@@ -41,7 +41,7 @@
 }
 
 .landing-page .achievements {
-  background-color: #a7e0ff;
+  background-color: #F6E6CB;
   padding: 50px 0;
   text-align: center;
 }
@@ -70,6 +70,11 @@
   background-color: black;
 }
 .carousel-item img{
-  height:440px;
   opacity: 0.6;
+}
+
+@media (max-width:500px){
+  .carousel-item img{
+    height: 250px;
+  }
 }

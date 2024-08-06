@@ -25,7 +25,7 @@ export default function About(){
 
         <section className="team bg-light py-5">
             <div className="container">
-                <div className='d-flex flex-column flex-md-row justify-content-center align-items-center m-2 mb-4'>
+                <div className='meetTeam d-flex flex-column flex-md-row justify-content-center align-items-center m-2 mb-4'>
                     <div>
                         <h2 className="text-center mb-4">Meet Our Team</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa error esse inventore commodi provident quasi repellat vero soluta neque laudantium! Voluptatem eius quos qui ullam cum voluptatum magnam aperiam neque.</p>
@@ -56,33 +56,6 @@ export default function About(){
                     <img src="https://cdn-icons-png.flaticon.com/512/5231/5231019.png" className="card-img-top" alt="Team Member 3"/>
                     <div className="card-body text-center">
                     <h5 className="card-title">Person 3</h5>
-                    <p className="card-text">Program Director</p>
-                    </div>
-                </div>
-                </div>
-                <div className="col-md-4 mb-4">
-                <div className="card team-member">
-                    <img src="https://cdn-icons-png.flaticon.com/512/5231/5231019.png" className="card-img-top" alt="Team Member 3"/>
-                    <div className="card-body text-center">
-                    <h5 className="card-title">Person 4</h5>
-                    <p className="card-text">Program Director</p>
-                    </div>
-                </div>
-                </div>
-                <div className="col-md-4 mb-4">
-                <div className="card team-member">
-                    <img src="https://cdn-icons-png.flaticon.com/512/5231/5231019.png" className="card-img-top" alt="Team Member 3"/>
-                    <div className="card-body text-center">
-                    <h5 className="card-title">Person 5</h5>
-                    <p className="card-text">Program Director</p>
-                    </div>
-                </div>
-                </div>
-                <div className="col-md-4 mb-4">
-                <div className="card team-member">
-                    <img src="https://cdn-icons-png.flaticon.com/512/5231/5231019.png" className="card-img-top" alt="Team Member 3"/>
-                    <div className="card-body text-center">
-                    <h5 className="card-title">person 6</h5>
                     <p className="card-text">Program Director</p>
                     </div>
                 </div>
